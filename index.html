@@ -20,19 +20,33 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-      <div class="gradient ms-auto me-auto d-flex align-items-center">
-        <div class="row back ms-auto me-auto">
-          <div class="col mt-auto mb-auto">
-            <img src="https://picsum.photos/250/385?grayscale" alt="" />
+    <div class="container-fluid">
+      <div
+        class="gradient ms-auto me-auto d-flex align-items-center"
+        id="model"
+      >
+        <div
+          class="row back ms-auto me-auto shadow-sm bg-body p rounded"
+          id="content"
+        >
+          <span id="close" class="text-end ms-4"
+            ><img src="./svg/close_black_24dp.svg" alt=""
+          /></span>
+          <div class="col text-center">
+            <img
+              src="https://picsum.photos/id/242/250/385"
+              class="rounded"
+              id="image-1"
+              alt=""
+            />
           </div>
-          <div class="col mt-auto mb-auto">
-            <h5 class="mb-3">
+          <div class="col text-center" id="contentsec" style="width: 80%">
+            <h5 class="mb-3 text-center">
               Ideas and UI <br />
               components in your <br />
               inbox
             </h5>
-            <p style="font-size: small">
+            <p style="font-size: small" id="firstp">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus quod tempore voluptate. Sed eveniet asperiores amet nam,
               tempora voluptatibus expedita quisquam odio nulla voluptates!
@@ -40,13 +54,18 @@
             <input
               type="email"
               name=""
-              id=""
+              id="inputm"
               placeholder="Email address"
-              class="mb-3 w-100 rounded"
+              class="mb-3 rounded text-center w-100"
             />
-            <button class="btn-1 rounded">Subscribe</button>
+            <button
+              class="btn-1 rounded shadow-sm mb-1 bg-white text-center"
+              id="btn-1"
+            >
+              Subscribe
+            </button>
             <p
-              class="text-center mt-2"
+              class="text-center mt-1"
               style="opacity: 0.5; font-size: x-small; font-weight: bolder"
             >
               No spams included
