@@ -6,11 +6,13 @@
 }
 
 .gradient {
-  background: rgb(191, 129, 173);
+  background: rgb(167, 31, 96);
   background: linear-gradient(
     135deg,
-    rgba(191, 129, 173, 1) 30%,
-    rgba(244, 198, 129, 1) 70%
+    rgba(167, 31, 96, 1) 0%,
+    rgba(191, 129, 173, 1) 34%,
+    rgba(224, 124, 71, 1) 54%,
+    rgba(244, 198, 129, 1) 79%
   );
   width: 45em;
   height: 45em;
